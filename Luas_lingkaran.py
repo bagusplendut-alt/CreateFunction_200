@@ -1,5 +1,4 @@
-import math
-luas_lingkaran = lambda r: math.pi * r ** 2
+luas_lingkaran = lambda r: 3.14 * r ** 2
 
 print("======== LUAS LINGKARAN ========")
 
