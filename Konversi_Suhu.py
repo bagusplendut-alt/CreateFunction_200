@@ -7,3 +7,7 @@ def convert_temperature(value, unit):
         print("Unit harus 'C' atau 'F'")
 
 print("======== KONVERSI SUHU ========")
+
+input_suhu = float(input("Masukkan nilai suhu: "))
+unit = input("Masukkan satuan suhu ('C' untuk Celsius atau 'F' untuk Fahrenheit): ")
+konversi = convert_temperature(input_suhu, unit)
